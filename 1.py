@@ -23,7 +23,7 @@ def computer_move(stones):
 stones = random.randint(4, 30)
 print(f"Игра началась! У вас есть {stones} камней.")
 
-cd ..
+
 while stones > 0:
     user_choice = get_user_input(stones)
     stones -= user_choice
