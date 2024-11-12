@@ -18,7 +18,7 @@ def get_user_input(stones):
 def computer_move(stones):
     return random.randint(1, min(3, stones))
 
-#sfgsgsfg
+
 stones = random.randint(4, 30)
 print(f"Игра началась! У вас есть {stones} камней.")
 
@@ -35,4 +35,3 @@ while stones > 0:
     print(f"Компьютер взял {computer_choice} камня(ей). Оставшиеся камни: {stones}")
     if stones <= 0:
         print("Компьютер выиграл!")
-####3
